@@ -1,0 +1,35 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.input-section {
+  margin-bottom: 3rem;
+}
+
+.results-section {
+  margin-bottom: 4rem;
+}
+
+.history-section {
+  margin-top: 4rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .input-section,
+  .results-section,
+  .history-section {
+    margin-bottom: 2rem;
+  }
+}

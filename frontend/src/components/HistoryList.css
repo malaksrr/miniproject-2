@@ -1,0 +1,96 @@
+.history-container {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.history-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.time-range-selector select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+}
+
+.table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th {
+  background-color: #f8f9fa;
+  color: #555;
+  font-weight: 600;
+  text-align: left;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  color: #555;
+}
+
+tr.high-risk {
+  background-color: #fff5f5;
+}
+
+.concentration-rating {
+  color: #ddd;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+
+.concentration-rating .active {
+  color: #ffc107;
+}
+
+.risk-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.risk-badge.high {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.risk-badge.low {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: #777;
+}
